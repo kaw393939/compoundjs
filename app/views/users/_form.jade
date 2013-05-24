@@ -1,0 +1,21 @@
+!= errorMessagesFor(user) 
+.control-group
+  != form.label("name", false, {class: "control-label"})
+  .controls
+    != form.input("name")
+.control-group
+  != form.label("email", false, {class: "control-label"})
+  .controls
+    != form.input("email")
+.control-group
+  != form.label("password", false, {class: "control-label"})
+  .controls
+    != form.input("password")
+.control-group
+  != form.label("createdAt", false, {class: "control-label"})
+  .controls
+    != form.input("createdAt")
+.control-group
+  != form.label("activated", false, {class: "control-label"})
+  .controls
+    != form.checkbox("activated")

@@ -1,0 +1,15 @@
+development:
+  baseURL: 'http://0.0.0.0:80/'
+  local: true
+  google: true
+  github:
+    clientID: "e2a2cfa168b25edb3cc1"
+    secret: "ea389c60f06140eb42c2104f185288a96d8f033b"
+  linkedin:
+    apiKey: "cthb7gtcy1xa"
+    secret: "YuQNG4anfkp190HM"
+production:
+  baseURL: 'http://node-js.ru/'
+  github:
+    clientID: "...."
+    secret: "...."
